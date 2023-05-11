@@ -1,8 +1,9 @@
-let userName = "  Susan Kamau     ";
-let nameLength = userName.length;
+// method chaining: This calling one method after another
+//                  in one continuous line of code.
 
-console.log(userName);
-console.log(userName.charAt(4));
+let userName = "susan";
+let letter = userName.charAt(0).toUpperCase();
 
-userName = userName.trim();
-console.log(userName);
+letter = letter.toUpperCase();
+
+console.log(letter)
